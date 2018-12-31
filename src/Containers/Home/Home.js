@@ -71,7 +71,7 @@ class Home extends Component {
         </div>
 
 
-        <footer className="Home__footer"><Footer /></footer>
+        {/* <footer className="Home__footer"><Footer /></footer> */}
         
         
       </div>

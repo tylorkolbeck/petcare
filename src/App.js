@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom'
 import './App.css';
 
+
+
 import Home from './Containers/Home/Home'
 import Services from './Containers/Services/Services'
 import Faq from './Containers/Faq/Faq'
@@ -31,7 +33,7 @@ class App extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/newsletter" component={Newsletter} />
 
-          {/* <footer className="App__footer_container"><Footer /></footer> */}
+          <footer className="App__footer_container"><Footer /></footer>
         </div>
       </BrowserRouter>
      
