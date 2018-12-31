@@ -76,3 +76,33 @@
 .Contact__input_container textarea:focus {
     outline: none;    
 }
+
+.Contact__input_container button {
+    background-image: url('../../Assets//Images/dog_bone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    outline: 0px;
+    height: 50px;
+    width: 75px;
+    margin-top: 16px;
+}
+
+.Contact__input_container button:hover {
+    cursor: pointer;
+    background: #9AABBA;
+    /* border: 1px solid  */
+    color: white;
+    border-radius: 3px;
+}
+
+.Contact__input_container button:hover span {
+    display:none
+}
+
+.Contact__input_container button:hover:before {
+    content:'\2713';
+    width: 50px;
+    height: 30px;
+} 
