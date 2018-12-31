@@ -1,0 +1,9 @@
+.Logo__container {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;   
+    font-style: normal;
+    float: left;
+    padding: 50px;
+    color: #707070;
+    font-size: 1.3em;
+}

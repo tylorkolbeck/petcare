@@ -1,0 +1,229 @@
+.Home__container {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Home__main_info {
+    height: 400px;
+    background: #9AABBA;
+    display: flex;
+    align-items: center;
+}
+
+.Home__main_info_text {
+    position: absolute;
+    right: 50px;
+    width: 50%;
+    max-width: 300px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: rockwell, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.Home__rotating_reviews {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 0px 55px 0px;
+}
+
+.Home__rotating_reviews p {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    color: #091740;
+
+}
+
+.Home__rotating_reviews_name {
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: 2.6em;
+    background-image: url('../../Assets//Images/dog_bone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Home__flexbox {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Home__services_block {
+    width: 50%;
+    height: 300px;
+    background: #E7E8E4;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Home__services_block_text {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-image: url('../../Assets//Images//dog_bone_45_degrees.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-size: contain;
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.Home__services_block_text p {
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin: auto;
+    color: #091740;
+    letter-spacing: .1em;
+}
+
+.Home__faq_block {
+    width: 50%;
+    height: 300px;
+    background: #CBCACE;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Home__newsletter_signup {
+    height: 200px;
+    padding: 30px 0px 55px 0px;
+    width: 100%;
+    background: #394A66;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Home__newsletter_signup h2 {
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin: auto;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.Home__newsletter_signup div:first-of-type {
+    /* background: red; */
+    padding: 20px;
+    background-image: url('../../Assets//Images//dog_bone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+
+.Home__newsletter_signup p {
+    color: white;
+    font-family: rockwell, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+}
+
+.Home__newsletter_signup input[type="text"] {
+    border: 0px;
+    outline: 0px;
+    padding: 5px;
+    width: 40%;
+    max-width: 350px;
+    height: 25px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 100;
+    padding-left:10px;
+    display: inline-block;
+}
+
+.Home__newsletter_signup button {
+    background: #E7E8E4;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #394A66;
+    font-family: rockwell, sans-serif;
+    font-weight: 100;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+
+
+.Home__footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.Home__main_info_mobile {
+    display: none;
+}
+
+@media (max-width: 550px) {
+
+    .Home__main_info_text {
+        display: none;
+    }
+
+    .Home__main_info_mobile {
+        display: block;
+        position: relative;
+        top: -60px;
+        z-index: 99;
+    }
+
+    .Home__main_info_mobile div {
+        color: #091740;
+        font-family: rockwell, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin: 32px;
+        background: #E7E8E4;
+        padding: 16px;
+    }
+    
+    .Home__flexbox {
+        flex-flow: row-wrap;
+    }
+
+    .Home__faq_block {
+        flex: 1 100%;
+    }
+
+    .Home__services_block {
+        flex: 1 100%;
+    }
+}
+
