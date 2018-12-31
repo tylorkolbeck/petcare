@@ -81,6 +81,7 @@
 
     .Services__info_bar {
         width: 100%;
+        text-align: center;
     }
     
     .Services__image_container_mobile {
@@ -91,6 +92,7 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
+
 }
 
 @media(min-width: 1200px) {

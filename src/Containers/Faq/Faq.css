@@ -7,6 +7,10 @@
     color: #091740;
 }
 
+.Faq__question h2 {
+    line-height: 1.5em;
+}
+
 .Faq__main_info h1 {
    line-height: 1.5em;
    text-align: center;
@@ -47,10 +51,18 @@
     }
     .Faq__question p {
         padding: 16px;
+        padding-top: 0px;
     }
 
     .Faq__question h2 {
         padding-right: 10px;
         padding-left: 10px;
+    }
+
+    .Faq__question h2 {
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
     }
 }
