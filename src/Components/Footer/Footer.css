@@ -11,6 +11,10 @@
 .Footer__container ul {
     display: block;
     margin: auto;
+    margin-bottom: 0px;
+    flex: 1;
+    width: 100%;
+    margin-top: 15px;
 }
 
 .Footer__container ul li {
@@ -22,7 +26,7 @@
 }
 
 .Footer__container ul li:last-of-type {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .Footer__container ul li a {
@@ -44,6 +48,7 @@
     font-weight: 100;
     font-style: normal;
     color: #394A66;
+    flex: 1;
 }
 
 .Footer__contact_info hr {
@@ -63,7 +68,7 @@
     }
 
     .Footer__container ul li:first-of-type {
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 0px; 
     }
 

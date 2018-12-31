@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="Footer__container">
+    <div className="Footer__container" style={{flexDirection: 'column'}}>
             <ul>
                 <li><NavLink to='/' exact>HOME</NavLink></li>
                 <li><NavLink to='/services'>SERVICES</NavLink></li>
