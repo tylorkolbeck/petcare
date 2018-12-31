@@ -47,7 +47,18 @@
     }
 
     .Faq__dog_paw_image {
-        display: none;
+        /* display: none; */
+        display: block;
+        width: 100%;
+        height: 25px;
+        padding: 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        /* background: red; */
+    }
+    .Faq__dog_paw_image:first-of-type {
+        margin-top: 20px;
     }
     .Faq__question p {
         padding: 16px;
