@@ -184,7 +184,7 @@
     display: block;
     margin: auto;
     text-align: center;
-    padding: 20px;
+    width: 100%;
 }
 
 .Home__main_info_mobile {
