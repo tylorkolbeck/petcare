@@ -14,8 +14,8 @@ const Footer = () => {
             </ul>
 
             <div className="Footer__contact_info">
-              <p>SERVING THE JACKSONVILLE, FLORIDA AREA</p>
               <hr></hr>
+              <p>SERVING THE JACKSONVILLE, FLORIDA AREA</p>
               <p>JENNIFERINGLE4PETCARE@GMAIL.COM</p>
               <p>904.404.6207</p>
             </div>
