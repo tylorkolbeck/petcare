@@ -162,6 +162,8 @@
     font-weight: 100;
     padding-left:10px;
     display: inline-block;
+    border-radius: 0px;
+    -webkit-appearance: none;
 }
 
 .Home__newsletter_signup button {
@@ -200,6 +202,10 @@
         position: relative;
         top: -60px;
         z-index: 99;
+    }
+
+    .Home__rotating_reviews {
+        margin-top: -45px; 
     }
 
     .Home__main_info_mobile div {
