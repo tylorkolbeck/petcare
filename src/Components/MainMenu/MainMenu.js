@@ -2,8 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './MainMenu.css'
+import DrawerToggleButton from '../../Components/DrawerToggleButton/DrawerToggleButton'
 
-const MainMenu = () => {
+const MainMenu = (props) => {
   return (
     <div className="MainMenu__container">
         <ul>
@@ -14,11 +15,7 @@ const MainMenu = () => {
             {/* <li><NavLink to='/newsletter'>NEWSLETTER</NavLink></li> */}
         </ul>
 
-        <div className="MainMenu__burger_icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        <DrawerToggleButton click={props.drawerClickedHandler}/>
 
     </div>
   )

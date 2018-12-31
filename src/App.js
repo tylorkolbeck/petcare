@@ -13,9 +13,34 @@ import MainMenu from './Components/MainMenu/MainMenu'
 import Logo from './Components/Logo/Logo'
 import Story from './Components/Story/Story'
 import Footer from './Components/Footer/Footer'
+import TopDrawer from './Components/DrawerToggleButton/TopDrawer'
+import Backdrop from './Components/Backdrop/Backdrop'
 
 class App extends Component {
+
+  state= {
+    sideDrawerOpen: false
+  }
+  
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    })
+    console.log('Drawer Toggle')
+  }
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false})
+  }
+
   render() {
+
+    
+    let backdrop
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler}/>
+    }
+
     return (
       <BrowserRouter>
         <div className="App">
@@ -23,7 +48,10 @@ class App extends Component {
 
             <NavLink to="/"><Logo /></NavLink>
 
-            <MainMenu />
+            <MainMenu drawerClickedHandler={this.drawerToggleClickHandler}/>
+            <TopDrawer show={this.state.sideDrawerOpen} />
+            {backdrop}
+
             <div style={{clear: 'both'}}></div>
           </header>
           <Route exact path="/" component={Home} />

@@ -9,6 +9,7 @@
 
 .Faq__main_info h1 {
    line-height: 1.5em;
+   text-align: center;
 }
 
 .Faq__questions_container {
@@ -16,8 +17,6 @@
     flex-wrap: wrap;
     background: #E7E8E4;   
 }
-
-
 
 .Faq__dog_paw_image {
     display: flex;
@@ -27,6 +26,10 @@
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.Faq__main_info p {
+    text-align: center;
 }
 
 .Faq__question {
