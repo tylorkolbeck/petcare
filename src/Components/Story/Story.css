@@ -29,9 +29,14 @@
     padding-top: 32px;
 }
 
-.Story__bio h2 {
+.Story__bio h1 {
+    font-family: rockwell, sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-style: normal;
     padding-left: 32px;
-    font-family: cursive;
+    color: #091740;
 }
 
 .Story__bio img {

@@ -20,6 +20,7 @@ class Contact extends Component {
           <input type="text" placeholder="SUBJECT"></input>
         {/* <h2>Tell Me More!</h2> */}
           <textarea placeholder="If you would like a call back please request so and include a working number I can reach you at!"></textarea>
+          <button>SUBMIT</button>
         </div>
       </div>
     )

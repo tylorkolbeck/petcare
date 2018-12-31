@@ -11,6 +11,7 @@ const Story = () => {
         </div>
 
         <div className="Story__bio">
+        <h1>MY STORY</h1>
           <p>Hey there, I’m Jennifer! Born and raised right here in Jacksonville, Florida. 
               I have lived here all of my life and have always had a furry friend in my home from back when I was a little girl to gifting the love of animals to my own little girls. Outside of having pets big and small, furry and scaly, I also worked x years in a veterinary office and gained valuable knowlegde in more advanced care options for pets of many species. 
           </p>
@@ -24,7 +25,7 @@ const Story = () => {
           <p style={{paddingTop: '0px', paddingBottom: '0px'}}>
             Until then,
           </p>
-          <h2 style={{position: 'relative'}}>
+          <h2 style={{position: 'relative', fontFamily: 'cursive', paddingLeft: '32px'}}>
             <img src={dog_bone} alt="dog bone"/>
             Jennifer
           </h2>

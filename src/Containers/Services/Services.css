@@ -9,11 +9,9 @@
 }
 
 .Services__main_info {
-    
     padding-top: 10px;
     padding-bottom: 25px;
     text-align: center;
-    font-size: 1.2em;
 }
 
 .Services__info_bar_container {
@@ -22,11 +20,13 @@
 }
 
 .Services__container h1 {
+    text-align: center;
     font-family: rockwell, sans-serif;
     font-weight: 300;
     line-height: 1.5em;
     letter-spacing: .1em;
     font-style: normal;
+    color: #091740;
 }
  
 .Services__info_bar {
