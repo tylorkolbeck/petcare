@@ -9,8 +9,9 @@
 }
 
 .Services__main_info {
-    padding: 45px;
+    
     padding-top: 10px;
+    padding-bottom: 25px;
     text-align: center;
     font-size: 1.2em;
 }
@@ -73,7 +74,7 @@
     .Services__main_info p {
         text-align: justify; 
     }
-    
+
     .Services__image_container {
         display: none;
     }
