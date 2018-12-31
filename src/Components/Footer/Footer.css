@@ -5,6 +5,7 @@
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    box-sizing: border-box;
     
 }
 
@@ -22,7 +23,7 @@
 }
 
 .Footer__container ul li:last-of-type {
-    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .Footer__container ul li a {
