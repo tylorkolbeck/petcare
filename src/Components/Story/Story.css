@@ -43,6 +43,11 @@
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .Story__container {
+        padding-left: 0px;
+    }
+
     .Story__image_box {
         flex: 1 0 100%;
         height: 400px;
@@ -60,6 +65,10 @@
 }
 
 @media(max-width: 768px) {
+    .Story__container {
+        padding-left: 0px;
+    }
+    
     .Story__image_box {
         flex: 1 0 100%;
         height: 400px;
