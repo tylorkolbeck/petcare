@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Footer from '../../Components/Footer/Footer'
 
 import './Home.css'
 
@@ -69,12 +68,7 @@ class Home extends Component {
 
             <input type="text" placeholder="ENTER YOUR EMAIL"></input>
             <button>SPEAK!</button>
-        </div>
-
-
-        {/* <footer className="Home__footer"><Footer /></footer> */}
-        
-        
+        </div>        
       </div>
 
       
