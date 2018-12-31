@@ -61,4 +61,14 @@
         width: 100%;
         padding: 8px 0px;
     }
+
+    .Footer__container ul li:first-of-type {
+        margin-top: 30px;
+        margin-bottom: 0px; 
+    }
+
+    .Footer__container ul li:last-of-type {
+        margin-top: 0px;
+        margin-bottom: 15px; 
+    }
 }
