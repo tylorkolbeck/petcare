@@ -1,3 +1,4 @@
+
 .Services__container {
     font-family: montserrat, sans-serif;
     font-weight: 300;
@@ -45,10 +46,10 @@
     flex-grow: 1;
     box-sizing: border-box;
     background-position: center;
-    background-size: 50%;
+    background-size: 40%;
+    
     background-repeat: no-repeat;
     /* background-image: url('../../Assets//Images//dog_paw_print.png') */
-
 }
 
 .Services__info_bar h2 {
@@ -68,6 +69,10 @@
 }
 
 @media(max-width: 600px) {
+
+    .Services__main_info p {
+        text-align: justify; 
+    }
     .Services__image_container {
         display: none;
     }
@@ -85,4 +90,11 @@
         background-size: contain;
     }
 }
+
+@media(min-width: 1200px) {
+    .Services__image_container {
+       background-size: 30%;
+    }
+}
+
 
