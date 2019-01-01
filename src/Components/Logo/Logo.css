@@ -7,8 +7,9 @@
     /* color: #707070; */
     font-size: 1.3em;
 
-    text-transform: uppercase;
-
+    /* text-transform: uppercase; */
+    padding-right: 0px;
+    margin-right: 0px;
    
     font-family: rockwell, sans-serif;
     letter-spacing: 1px;
