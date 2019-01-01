@@ -46,6 +46,7 @@
     font-family: montserrat, sans-serif;
     font-weight: 300;
     padding: 25px;
+    padding-top: 0px;
     box-sizing: border-box;
     flex: 4 0 85%;
     box-sizing: border-box; 
@@ -81,7 +82,7 @@
     display: none;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 850px) {
 
     .Services__main_info p {
         text-align: justify; 
@@ -97,6 +98,7 @@
     }
 
     .Services__info_bar {
+        padding-top: 25px;
         width: 100%;
         text-align: center;
     }

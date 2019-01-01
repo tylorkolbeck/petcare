@@ -11,14 +11,14 @@ const Story = () => {
 
         <div className="Story__bio">
         <h1>MY STORY</h1>
-          <p>Hey there, I’m Jennifer! Born and raised right here in Jacksonville, Florida. 
-              I have lived here all of my life and have always had a furry friend in my home from back when I was a little girl to gifting the love of animals to my own little girls. Outside of having pets big and small, furry and scaly, I also worked x years in a veterinary office and gained valuable knowlegde in more advanced care options for pets of many species. 
+          <p>
+            Hey there, I'm Jennifer! Born and raised right here in Jacksonville, Florida. I have lived here all of my life and have always had a furry friend by my side. As a little girl, I couldn't wait to gift the love of animals to my children, like my parents did with me. Outside of having pets big and small, furry and feathered (let's not forget the scaly ones too), I have also worked at a veterinary hospital throughout the years. Working there, I was able to gain some valuable knowledge, to help in more advanced care options.
           </p>
           <p>   
-              On a more personal level, I am married to a courageous police officer and we have 5 amazing kids ages 19-27. We come from families that valued hard work ethic and southern hospitality. Outside of working, we enjoy camping, traveling and loads of family time. 
+            I am proud to say that I come from a family that has instilled in me, the value of hard work, integrity, respect, good character and endless amounts of love! When I'm not working, I enjoy camping, traveling and loads of family time with my husband and children.
           </p>
           <p>
-              I look forward for the chance to meet your furry, winged, or scaly friend!  
+            I look forward to the opportunity of meeting your furry, feathered or scaly friend!
           </p>
 
           <p style={{paddingTop: '0px', paddingBottom: '0px'}}>

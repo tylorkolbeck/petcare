@@ -78,6 +78,7 @@
 }
 
 .Contact__input_container button {
+    background-color: none;
     background-image: url('../../Assets//Images/dog_bone.png');
     background-size: contain;
     background-repeat: no-repeat;

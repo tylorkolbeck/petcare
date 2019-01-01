@@ -8,6 +8,7 @@ const MainMenu = (props) => {
   return (
     <div className="MainMenu__container">
         <ul>
+            <li><NavLink to='/' exact>HOME</NavLink></li>
             <li><NavLink to='/story' exact>STORY</NavLink></li>
             <li><NavLink to='/services'>SERVICES</NavLink></li>
             <li><NavLink to='/faq'>FAQ</NavLink></li>

@@ -15,7 +15,7 @@
     box-sizing: border-box;
     /* background: #9AABBA; */
     background-image: url('../../Assets//Images//dog_pug_black_profile.jpg');
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -53,6 +53,10 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .Story__bio h1 {
+        color: white;
+    }
+    
     .Story__container {
         padding-left: 0px;
     }
@@ -64,16 +68,21 @@
 
     .Story__bio {
         position: relative;
-        top: -50px;
-        background: #E7E8E4;
+        top: 0px;
+        background: #394A66;
+        color: white;
         margin: 32px;
         box-sizing: border-box;
-        text-align: left;
+        text-align: justify;
         padding-bottom: 50px;
     }
 }
 
 @media(max-width: 768px) {
+    .Story__bio h1 {
+        color: white;
+    }
+
     .Story__container {
         padding-left: 0px;
     }
@@ -85,11 +94,19 @@
 
     .Story__bio {
         position: relative;
-        top: -50px;
-        background: #E7E8E4;
+        top: 0px;
+        background: #394A66;
+        color: white;
         margin: 32px;
         box-sizing: border-box;
         text-align: justify;
         padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    .Story__bio {
+        width: 100%;
+        margin: 0px;
     }
 }

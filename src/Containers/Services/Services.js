@@ -17,7 +17,9 @@ class Services extends Component {
 
           <div className="Services__main_info">
             <h1>SERVICES</h1>
-            <p>Below is a list of services I provide. If you have any questions please feel free to send them through the contact page. If you have an exotic animal or an animal with specialty needs we can discuss them prior to booking to ensure I am able to prove adequate care for you pet. I will never say yes to something I am uncomfortable with to ensure we both feel confident in the service I am providing you and the care I am giving to your animal!</p>
+            <p>
+              Below is a list of services that I provide. If you have any questions, please feel free to send them through the CONTACT page. If you have an exotic pet or one with special needs, we can discuss them prior to booking. This will help to ensure I am able to adequately care for your pet. Rest assured, I will not take on responsibility, I am not confident in. I want to provide the best care for your pet and give you comfort while you're away from them.
+            </p>
           </div>
           
           <div className="Services__info_bar_container">
@@ -27,7 +29,9 @@ class Services extends Component {
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>ALL ANIMALS WELCOME</h2>
-                <p>No pet is left off my list!* I have experience caring for reptiles, fish, cats, large and small dogs and even some bird species. </p>
+                <p>
+                I don't want to leave any pet off of my list. My experiences range from domestic, farm, exotics, reptiles, birds, fish and wildlife.
+                </p>
               </div>
 
             {/* ## SERVICES ## */}
@@ -35,7 +39,9 @@ class Services extends Component {
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
               <h2>DAILY FEEDINGS</h2>
-              <p>Available for feedings morning, afternoon and night to meet the needs of your pet. </p>
+              <p>
+                Available for feedings that meet your pets needs and requirements. 
+              </p>
               <p className="Services__note"> *If you have any hesitation with your exotic pet please conatct me and I can let you know if I am able to provide adequete care for your animal friend.</p>
             </div>
 
@@ -44,15 +50,19 @@ class Services extends Component {
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
                 <h2>POTTY BREAKS</h2>
-                <p>Shorter 15 minute potty breaks are available for those that just need a quick visit.</p>
+                <p>
+                  Available to help with potty training and age related issues, even for those medications that make the "need to go" more frequent.
+                </p>
               </div>
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
-                <h2>LONG WALKS</h2>
-                <p>Longer 30-45 minute walks are available* for those that need a little extra time to get all that pent up energy out!</p>
+                <h2>WALKS</h2>
+                <p>
+                  Nothing like a little fresh air, change of scenery or release of energy. 
+                </p>
                 <p className="Services__note"> *Please note time depends on weather as well as breed/health status of your animal to ensure they are not overexurted. </p>
               </div>
 
@@ -61,23 +71,27 @@ class Services extends Component {
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>MEDICATION ADMINISTRATION</h2>
-                <p>Experienced in giving oral and sub quetanious medications if your pets requires them.</p>
+                <p>
+                I am able to administer anywhere from your pets daily required health maintenance medication, unexpected accident or illness medication and even subcutaneous fluids.
+                </p>
               </div>
 
-            {/* ## SERVICES ## */}
+            {/* ## SERVICES ##
             <div className="Services__image_container" style={{backgroundImage: `url(${medical_kit})`}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${animal_needle_grey})`}}></div>
                 <h2>APPOINTMENTS</h2>
                 <p>Ability to transport your pet to and from apointments with a veterinarian, groomer, trainer or wherever your pet may need to go.</p>
-              </div>
+              </div> */}
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>SUPPLY RUN</h2>
-                <p>If you are out of supplies for your dog, provided a list I can make the run for you. Price depends upon bill.</p>
+                <p>
+                  Sometimes as much as we want to remember, we forget. If you run out of supplies and want to remain in your pets "good graces", I can help with that run to the pet store or veterinary office.
+                </p>
               </div>
 
 
