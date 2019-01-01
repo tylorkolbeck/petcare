@@ -23,12 +23,12 @@ class Services extends Component {
           <div className="Services__info_bar_container">
 
             {/* ## SERVICES ## */}
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>ALL ANIMALS WELCOME</h2>
                 <p>No pet is left off my list!* I have experience caring for reptiles, fish, cats, large and small dogs and even some bird species. </p>
               </div>
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`}}></div>
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bowl})`}}></div>
@@ -39,13 +39,13 @@ class Services extends Component {
               <p className="Services__note"> *If you have any hesitation with your exotic pet please conatct me and I can let you know if I am able to provide adequete care for your animal friend.</p>
             </div>
 
-            {/* ## SERVICES ## */}         
+            {/* ## SERVICES ## */}        
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
                 <h2>POTTY BREAKS</h2>
                 <p>Shorter 15 minute potty breaks are available for those that just need a quick visit.</p>
               </div>
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
@@ -57,12 +57,12 @@ class Services extends Component {
               </div>
 
             {/* ## SERVICES ## */}
+            <div className="Services__image_container" style={{backgroundImage: `url(${animal_needle_grey})`}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>MEDICATION ADMINISTRATION</h2>
                 <p>Experienced in giving oral and sub quetanious medications if your pets requires them.</p>
               </div>
-            <div className="Services__image_container" style={{backgroundImage: `url(${animal_needle_grey})`}}></div>
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${medical_kit})`}}></div>
@@ -73,12 +73,12 @@ class Services extends Component {
               </div>
 
             {/* ## SERVICES ## */}
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>SUPPLY RUN</h2>
                 <p>If you are out of supplies for your dog, provided a list I can make the run for you. Price depends upon bill.</p>
               </div>
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
 
 
             <div style={{margin: 'auto', marginTop: '40px', textAlign: 'center'}}>

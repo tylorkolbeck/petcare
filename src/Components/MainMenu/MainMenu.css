@@ -1,6 +1,7 @@
 .MainMenu__container {
     padding: 0px;
     margin: 0px;
+    min-width: 470px;
 }
 
 .MainMenu__container ul {
@@ -12,7 +13,7 @@
     list-style: none;
     padding: 0px;
     margin: 0px;
-    padding: 50px 20px;
+    padding: 50px 10px;
 }
 
 .MainMenu__container ul li:last-of-type {
@@ -30,7 +31,7 @@
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .MainMenu__container ul {
         display: none;
     }

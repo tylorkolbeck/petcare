@@ -12,6 +12,7 @@ class Faq extends Component {
             <p>Below are the most popular questions asked. If your question is not included please call or contact me through the contact form and I will be sure to get back to you in a timely manner! </p>
           </div>
 
+        
         <div className="Faq__questions_container">
           <div className="Faq__dog_paw_image" style={{backgroundImage: `url(${dog_print})`}}></div>
           <div className="Faq__question">

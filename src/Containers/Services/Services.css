@@ -6,17 +6,28 @@
     padding: 20px;
     padding-top: 0px;
     color: #091740;
+    /* padding-right: 50px; */
+    /* background: yellow; */
+    padding: 100px;
+    padding-top: 0px;
 }
 
 .Services__main_info {
-    padding-top: 10px;
-    padding-bottom: 25px;
+    /* padding-top: 10px;
+    padding-bottom: 25px; */
+    /* padding: 10px 50px 25px 50px; */
     text-align: center;
+    padding-bottom: 16px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .Services__info_bar_container {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 5%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .Services__container h1 {
@@ -36,20 +47,21 @@
     font-weight: 300;
     padding: 25px;
     box-sizing: border-box;
-    width: 70%;
+    flex: 4 0 85%;
     box-sizing: border-box; 
 }
 
 .Services__image_container {
     background: white;
     display: flex;
-    width: 20%;
-    flex-grow: 1;
+    /* width: 20%; */
+    /* flex-grow: 1; */
+    flex: 1 0 15%;
     box-sizing: border-box;
     background-position: center;
     background-size: 40%;
-    
     background-repeat: no-repeat;
+    max-width: 1200px;
     /* background-image: url('../../Assets//Images//dog_paw_print.png') */
 }
 
@@ -77,6 +89,11 @@
 
     .Services__image_container {
         display: none;
+        padding: 0px;
+    }
+
+    .Services__info_bar_container {
+        padding-right: 0px;
     }
 
     .Services__info_bar {
@@ -91,6 +108,10 @@
         margin: auto;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .Services__container {
+        padding: 32px;
     }
 
 }

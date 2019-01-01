@@ -7,7 +7,6 @@ const Story = () => {
     <div>
       <div className="Story__container">
         <div className="Story__image_box">
-
         </div>
 
         <div className="Story__bio">

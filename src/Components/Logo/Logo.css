@@ -1,9 +1,17 @@
 .Logo__container {
-    font-family: futura-pt, sans-serif;
+    /* font-family: futura-pt, sans-serif; */
     font-weight: 300;   
     font-style: normal;
     float: left;
     padding: 50px;
-    color: #707070;
+    /* color: #707070; */
     font-size: 1.3em;
+
+    text-transform: uppercase;
+
+   
+    font-family: rockwell, sans-serif;
+    letter-spacing: 1px;
+    color: #091740;
+
 }

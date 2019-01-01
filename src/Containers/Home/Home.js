@@ -15,15 +15,13 @@ class Home extends Component {
 
         <div className="Home__main_info">
           <div className="Home__main_info_text">
-            Rest assured that your dog’s tail is wagging, or your cat’s a purring! With Jennifer your furry family member will continue to recieve the best care while you are away. With services such as potty breaks, long walks, feedings, and much more!
-            Head to the Services page for more info and to download a price list! 
+            Rest assured, with Jennifer, your pet will continue to receive love and care when you're not there! Offering potty breaks, walks, feedings and more. Head on over to the SERVICES page for more information.
           </div>
         </div>
 
         <div className="Home__main_info_mobile">
           <div>
-            Rest assured that your dog’s tail is wagging, or your cat’s a purring! With Jennifer your furry family member will continue to recieve the best care while you are away. With services such as potty breaks, long walks, feedings, and much more!
-            Head to the Services page for more info and to download a price list! 
+            Rest assured, with Jennifer, your pet will continue to receive love and care when you're not there! Offering potty breaks, walks, feedings and more. Head on over to the SERVICES page for more information.           
           </div>
         </div>
 
