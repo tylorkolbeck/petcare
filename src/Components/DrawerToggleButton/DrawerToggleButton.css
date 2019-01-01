@@ -24,6 +24,12 @@
     background: #4d4d4d;
   }
 
+  @media(max-width: 600px) {
+    .toggle-button {
+      margin-right: 32px;
+    }
+  }
+
   @media(min-width: 900px) {
       .toggle-button {
           display: none;
