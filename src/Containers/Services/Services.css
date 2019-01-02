@@ -50,6 +50,7 @@
     box-sizing: border-box;
     flex: 4 0 85%;
     box-sizing: border-box; 
+    margin: 16px auto;
 }
 
 .Services__image_container {

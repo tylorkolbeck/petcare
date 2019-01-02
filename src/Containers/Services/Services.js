@@ -18,40 +18,42 @@ class Services extends Component {
           <div className="Services__main_info">
             <h1>SERVICES</h1>
             <p>
-              Below is a list of services that I provide. If you have any questions, please feel free to send them through the CONTACT page. If you have an exotic pet or one with special needs, we can discuss them prior to booking. This will help to ensure I am able to adequately care for your pet. Rest assured, I will not take on responsibility, I am not confident in. I want to provide the best care for your pet and give you comfort while you're away from them.
+              Below is a list of services that I provide. If you have any questions, please feel free to send them through the CONTACT page. 
+              I don't want to leave any pet off of my list. My experiences range from domestic, farm, exotics, reptiles, birds, fish and wildlife.
+              If you have an exotic pet or one with special needs, we can discuss them prior to booking. This will help to ensure I am able to adequately care for your pet. Rest assured, I will not take on responsibility I am not confident in. I want to provide the best care for your pet and give you comfort while you're away from them.
             </p>
           </div>
           
           <div className="Services__info_bar_container">
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`}}></div>
+            {/* <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>ALL ANIMALS WELCOME</h2>
                 <p>
                 I don't want to leave any pet off of my list. My experiences range from domestic, farm, exotics, reptiles, birds, fish and wildlife.
                 </p>
-              </div>
+              </div> */}
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bowl})`}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
-              <h2>DAILY FEEDINGS</h2>
+              <h2>FULL PET VISIT $20-$25</h2>
               <p>
-                Available for feedings that meet your pets needs and requirements. 
+                Includes walkign feeding, environmental clean up and love.
               </p>
-              <p className="Services__note"> *If you have any hesitation with your exotic pet please conatct me and I can let you know if I am able to provide adequete care for your animal friend.</p>
+              <p className="Services__note"> *Fee is for first visit of day depending on species and needs. Aditional visits $10-$15 each.</p>
             </div>
 
             {/* ## SERVICES ## */}        
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
-                <h2>POTTY BREAKS</h2>
+                <h2>POTTY BREAKS $10</h2>
                 <p>
-                  Available to help with potty training and age related issues, even for those medications that make the "need to go" more frequent.
+                Just a quick trip outside only, to help with accidents due to age or illness.
                 </p>
               </div>
 
@@ -86,11 +88,20 @@ class Services extends Component {
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
+            <div className="Services__info_bar" style={{background: '#9AABBA'}}>
+              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
+                <h2>SUPPLY RUN $15-$20</h2>
+                <p>
+                  Sometimes as much as we want to remember, we forget! If you run out of supplies and want to remain in your pets good graces, I can help with a run to pick up food, meds or other supplies from you preferred grocery, veterinary office or pet store.
+                </p>
+              </div>
+
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
-                <h2>SUPPLY RUN</h2>
+                <h2>FREEBIES</h2>
                 <p>
-                  Sometimes as much as we want to remember, we forget. If you run out of supplies and want to remain in your pets "good graces", I can help with that run to the pet store or veterinary office.
+                  I am able to water plants, grab mail, packages and newspapers. I am also able to alternate lights on and off. There is no charge for these services, please remember to communicate these requests if needed. 
                 </p>
               </div>
 
