@@ -37,7 +37,7 @@ class Services extends Component {
               </div> */}
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bowl})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bowl})`, border: '5px solid #E7E8E4'}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
               <h2>FULL PET VISIT $20-$25</h2>
@@ -48,7 +48,7 @@ class Services extends Component {
             </div>
 
             {/* ## SERVICES ## */}        
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`, border: '5px solid #9AABBA'}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
                 <h2>POTTY BREAKS $10</h2>
@@ -58,7 +58,7 @@ class Services extends Component {
               </div>
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_grey})`, border: '5px solid #CBCACE'}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
                 <h2>WALKS</h2>
@@ -69,7 +69,7 @@ class Services extends Component {
               </div>
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${animal_needle_grey})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${animal_needle_grey})`, border: '5px solid #E7E8E4'}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>MEDICATION ADMINISTRATION</h2>
@@ -87,7 +87,7 @@ class Services extends Component {
               </div> */}
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`, border: '5px solid #9AABBA'}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>SUPPLY RUN $15-$20</h2>
@@ -96,7 +96,7 @@ class Services extends Component {
                 </p>
               </div>
 
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`, border: '5px solid #CBCACE'}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>FREEBIES</h2>
