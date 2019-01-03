@@ -3,6 +3,7 @@ import { BrowserRouter, Route, NavLink } from 'react-router-dom'
 import './App.css';
 
 
+import ScrollToTop from './helper/scrollToTop'
 
 import Home from './Containers/Home/Home'
 import Services from './Containers/Services/Services'
@@ -34,7 +35,7 @@ class App extends Component {
   }
 
   render() {
-
+   
     
     let backdrop
     if (this.state.sideDrawerOpen) {
@@ -42,27 +43,28 @@ class App extends Component {
     }
 
     return (
-      <BrowserRouter>
-        <div className="App">
-          <header>
+      <BrowserRouter >
+    
+          <div className="App">
+            <header>
 
-            <NavLink to="/"><Logo /></NavLink>
+              <NavLink to="/"><Logo /></NavLink>
 
-            <MainMenu drawerClickedHandler={this.drawerToggleClickHandler}/>
-            <TopDrawer show={this.state.sideDrawerOpen} />
-            {backdrop}
+              <MainMenu drawerClickedHandler={this.drawerToggleClickHandler}/>
+              <TopDrawer show={this.state.sideDrawerOpen} />
+              {backdrop}
 
-            <div style={{clear: 'both'}}></div>
-          </header>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/story" component={Story} />
-          <Route exact path="/services" component={Services} />
-          <Route exact path="/faq" component={Faq} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/newsletter" component={Newsletter} />
+              <div style={{clear: 'both'}}></div>
+            </header>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/story" component={Story} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/faq" component={Faq} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/newsletter" component={Newsletter} />
 
-          <footer className="App__footer_container"><Footer /></footer>
-        </div>
+            <footer className="App__footer_container"><Footer /></footer>
+          </div>
       </BrowserRouter>
      
     );

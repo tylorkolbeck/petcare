@@ -11,7 +11,9 @@ import medical_kit from '../../Assets/Images/medical_kit.png'
 import dog_bone from '../../Assets/Images/dog_bone.png'
 
 class Services extends Component {
+  
   render() {
+    window.scrollTo(0, 0)
     return (
       <div className="Services__container">
 

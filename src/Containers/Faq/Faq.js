@@ -5,6 +5,7 @@ import dog_print from '../../Assets/Images/dog_paw_print.png'
 
 class Faq extends Component {
   render() {
+    window.scrollTo(0, 0)
     return (
       <div className="Faq__container">
         <div className="Faq__main_info">

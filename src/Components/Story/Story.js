@@ -3,6 +3,7 @@ import './Story.css'
 
 import dog_bone from '../../Assets/Images/dog_bone.png'
 const Story = () => {
+  window.scrollTo(0, 0)
   return (
     <div>
       <div className="Story__container">
