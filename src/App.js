@@ -16,6 +16,7 @@ import Story from './Components/Story/Story'
 import Footer from './Components/Footer/Footer'
 import TopDrawer from './Components/DrawerToggleButton/TopDrawer'
 import Backdrop from './Components/Backdrop/Backdrop'
+import Slider from './Components/Slider/Slider'
 
 class App extends Component {
 
@@ -62,6 +63,7 @@ class App extends Component {
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/newsletter" component={Newsletter} />
+            <Route exact path="/slider" component={Slider} />
 
             <footer className="App__footer_container"><Footer /></footer>
           </div>
