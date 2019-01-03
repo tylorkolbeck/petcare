@@ -3,8 +3,6 @@ import { BrowserRouter, Route, NavLink } from 'react-router-dom'
 import './App.css';
 
 
-import ScrollToTop from './helper/scrollToTop'
-
 import Home from './Containers/Home/Home'
 import Services from './Containers/Services/Services'
 import Faq from './Containers/Faq/Faq'
