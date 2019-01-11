@@ -42,7 +42,7 @@ class Home extends Component {
             <div className="Home__services_block_text" >
               <p>Supply Run</p>
             </div>
-            <div style={{background: 'white', margin: '0px 0px 30px 0px', padding: '5px 20px', textAlign: 'center'}}><p style={{padding: '0px', margin: '0px'}}><NavLink to="/faq" exact style={{padding: '0px', margin: '0px', fontSize: '2em', fontFamily: 'rockwell, sans-serif', color: '#091740', position: 'relative', letterSpacing: '.1em', textDecoration: 'none'}}>SERVICES</NavLink></p></div>
+            <div style={{background: 'white', margin: '0px 0px 30px 0px', padding: '5px 20px', textAlign: 'center'}}><p style={{padding: '0px', margin: '0px'}}><NavLink to="/services" exact style={{padding: '0px', margin: '0px', fontSize: '2em', fontFamily: 'rockwell, sans-serif', color: '#091740', position: 'relative', letterSpacing: '.1em', textDecoration: 'none'}}>SERVICES</NavLink></p></div>
           </div>
         
 

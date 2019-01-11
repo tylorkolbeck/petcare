@@ -42,42 +42,46 @@ class Services extends Component {
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bowl})`, border: '5px solid #E7E8E4'}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
-              <h2>FULL PET VISIT $20-$25</h2>
+              <h2>FULL PET VISIT: $20-$25</h2>
               <p>
-                Includes walkign feeding, environmental clean up and love.
+                Which includes walking feeding, environmental clean up and LOVE.
               </p>
-              <p className="Services__note"> *Fee is for first visit of day depending on species and needs. Aditional visits $10-$15 each.</p>
+              <p className="Services__note"> *fee is for first visit of day, depending on species and needs. </p>
+              <p className="Services__note">*aditional visits, per same day $10-$15</p>
             </div>
 
             {/* ## SERVICES ## */}        
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_blue})`, border: '5px solid #9AABBA'}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_grey})`}}></div>
-                <h2>POTTY BREAKS $10</h2>
+                <h2>POTTY BREAKS: $10</h2>
                 <p>
-                Just a quick trip outside only, to help with accidents due to age or illness.
+                  For only a quick trip outside.
                 </p>
+                <p className="Services__note">*to help with potty training and age related issues or those medications that make the "need to go" more frequent.</p>
               </div>
 
             {/* ## SERVICES ## */}
-            <div className="Services__image_container" style={{backgroundImage: `url(${dog_collar_grey})`, border: '5px solid #CBCACE'}}></div>
+            <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`, border: '5px solid #CBCACE'}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
-              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_collar_blue})`}}></div>
-                <h2>WALKS</h2>
+              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_print})`}}></div>
+                <h2>WALKS: 15-20 minutes, $15 or 30-35 minutes, $20</h2>
                 <p>
-                  Nothing like a little fresh air, change of scenery or release of energy. 
+                  Nothing like a little fresh air, change of scenery or release of energy.
                 </p>
-                <p className="Services__note"> *Please note time depends on weather as well as breed/health status of your animal to ensure they are not overexurted. </p>
+                <p className="Services__note">*please note that time also depends on weather, as well as, your pets breed or health restrictions to ensure they are not overexerted.</p>
               </div>
 
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${animal_needle_grey})`, border: '5px solid #E7E8E4'}}></div>
             <div className="Services__info_bar" style={{background: '#E7E8E4'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
-                <h2>MEDICATION ADMINISTRATION</h2>
+                <h2>MEDICATION ADMINISTRATION:</h2>
                 <p>
-                I am able to administer anywhere from your pets daily required health maintenance medication, unexpected accident or illness medication and even subcutaneous fluids.
+                  I am able to administer oral, topical and subcutaneous fluids for either, your pets required health maintenance medication, to the unexpected accident or illness.
                 </p>
+                <p classMame="Services__note"> *please don't hesitate to ask me about addition needs for your pet that aren't listed.</p>
+                <p classMame="Services__note"> *fees will depend on your pets required need. </p>
               </div>
 
             {/* ## SERVICES ##
@@ -92,18 +96,18 @@ class Services extends Component {
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`, border: '5px solid #9AABBA'}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
-                <h2>SUPPLY RUN $15-$20</h2>
+                <h2>SUPPLY RUN: $15-$20 plus total amount of supplies purchased.</h2>
                 <p>
-                  Sometimes as much as we want to remember, we forget! If you run out of supplies and want to remain in your pets good graces, I can help with a run to pick up food, meds or other supplies from you preferred grocery, veterinary office or pet store.
+                  Sometimes as much as we want to remember, we forget. If you run out of supplies and want to remain in your pet "good graces", I can help with picking up medications, food and supplies from your preferred grocery/pet store or veterinary office.
                 </p>
               </div>
 
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`, border: '5px solid #CBCACE'}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
-                <h2>FREEBIES</h2>
+                <h2>LITTLE EXTRAS: complimentary service</h2>
                 <p>
-                  I am able to water plants, grab mail, packages and newspapers. I am also able to alternate lights on and off. There is no charge for these services, please remember to communicate these requests if needed. 
+                  I can also help out in watering of plants, collection of mail/packages/newspapers and alternating light on and off, for those extended times away.
                 </p>
               </div>
 
