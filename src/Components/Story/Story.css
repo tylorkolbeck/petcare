@@ -17,7 +17,8 @@
     flex: 1 0 40%;
     box-sizing: border-box;
     /* background: #9AABBA; */
-    background-image: url('../../Assets//Images//dog_pug_black_profile.jpg');
+    /* background-image: url('../../Assets//Images//dog_pug_black_profile.jpg'); */
+    background-image: url('https://s3-us-west-2.amazonaws.com/jacksonvillepetcare/static/media/dog_portrait_pitbull_cropped.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,6 +68,7 @@
     .Story__image_box {
         flex: 1 0 100%;
         height: 400px;
+        background-image: url('https://s3-us-west-2.amazonaws.com/jacksonvillepetcare/static/media/dog_portrait_pitbull.jpg');
     }
 
     .Story__bio {
@@ -93,6 +95,9 @@
     .Story__image_box {
         flex: 1 0 100%;
         height: 400px;
+        
+        /* /* background-position: center; */
+        background-position-y: 0px; 
     }
 
     .Story__bio {
