@@ -1,7 +1,14 @@
 TODO: 
     ## Change the color of the images on the services page so they show up
+    ## Check input on contact page
+    ## Check input on newsletter input
+    ## Set up backend to show contact messages
+
+- Show a message sent dispaly after sending the message!
+- Set up SSL on the email server
+- Fix the services icons
+- fix the submit button
 
 
-- Do you offer a consultation prior to booking pet care? Yes. I prefer to meet you and your pet, prior to leaving them in my care. This helps with removing the "surprise" element your pet may experience. Having a little meet and greet also allows us to go over the routine and care of your pet, as well as, addressing any questions, reviewing paperwork and payment options. 
 
 

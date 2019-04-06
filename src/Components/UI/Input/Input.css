@@ -1,0 +1,11 @@
+
+
+.badInput {
+    /* background: red; */
+    border: 1px solid rgb(255, 67, 46) !important;
+    background: rgb(255, 167, 157) !important;
+}
+
+.invalidMessage {
+    color: rgb(255, 67, 46);
+}

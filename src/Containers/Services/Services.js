@@ -3,6 +3,7 @@ import './Services.css'
 
 // IMAGES //
 import dog_print from '../../Assets/Images/dog_paw_print.png'
+import dog_print_blue from '../../Assets/Images/dog_paw_print_blue.png'
 import dog_bowl from '../../Assets/Images/dog_food_bowl.png'
 import dog_collar_blue from '../../Assets/Images/dog_collar_blue.png'
 import dog_collar_grey from '../../Assets/Images/dog_collar_grey.png'
@@ -64,7 +65,7 @@ class Services extends Component {
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_print})`, border: '5px solid #CBCACE'}}></div>
             <div className="Services__info_bar" style={{background: '#CBCACE'}}>
-              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_print})`}}></div>
+              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_print_blue})`}}></div>
                 <h2>WALKS: 15-20 minutes, $15 or 30-35 minutes, $20</h2>
                 <p>
                   Nothing like a little fresh air, change of scenery or release of energy.
@@ -78,10 +79,10 @@ class Services extends Component {
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>MEDICATION ADMINISTRATION:</h2>
                 <p>
-                  I am able to administer oral, topical and subcutaneous fluids for either, your pets required health maintenance medication, to the unexpected accident or illness.
+                I am able to administer oral, topical and subcutaneous fluids for your pets special needs. 
                 </p>
-                <p classMame="Services__note"> *please don't hesitate to ask me about addition needs for your pet that aren't listed.</p>
-                <p classMame="Services__note"> *fees will depend on your pets required need. </p>
+                <p className="Services__note"> *please don't hesitate to ask me about addition needs for your pet that aren't listed.</p>
+                <p className="Services__note"> *fees will depend on your pets required need. </p>
               </div>
 
             {/* ## SERVICES ##
@@ -95,7 +96,7 @@ class Services extends Component {
             {/* ## SERVICES ## */}
             <div className="Services__image_container" style={{backgroundImage: `url(${dog_bone})`, border: '5px solid #9AABBA'}}></div>
             <div className="Services__info_bar" style={{background: '#9AABBA'}}>
-              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
+              <div className="Services__image_container_mobile" style={{backgroundImage: `url(${dog_bone})`}}></div>
                 <h2>SUPPLY RUN: $15-$20 plus total amount of supplies purchased.</h2>
                 <p>
                   Sometimes as much as we want to remember, we forget. If you run out of supplies and want to remain in your pet "good graces", I can help with picking up medications, food and supplies from your preferred grocery/pet store or veterinary office.
@@ -107,7 +108,7 @@ class Services extends Component {
               <div className="Services__image_container_mobile" style={{backgroundImage: `url(${medical_kit})`}}></div>
                 <h2>LITTLE EXTRAS: complimentary service</h2>
                 <p>
-                  I can also help out in watering of plants, collection of mail/packages/newspapers and alternating light on and off, for those extended times away.
+                  I can also help out in watering of plants, collection of mail/packages/newspapers and alternating lights on and off, for those extended times away.
                 </p>
               </div>
 

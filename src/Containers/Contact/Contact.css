@@ -88,22 +88,42 @@
     height: 50px;
     width: 75px;
     margin-top: 16px;
+    color: #091740;
+}
+
+.Contact__input_container button:disabled {
+    color: rgb(212, 212, 212);
+}
+
+.Contact__input_container button:disabled:hover {
+    cursor: not-allowed;
 }
 
 .Contact__input_container button:hover {
     cursor: pointer;
-    background: #9AABBA;
+    /* background: #9AABBA; */
     /* border: 1px solid  */
-    color: white;
-    border-radius: 3px;
+    /* color: white; */
+    /* border-radius: 3px; */
 }
 
 .Contact__input_container button:hover span {
-    display:none
+    /* display:none */
 }
 
 .Contact__input_container button:hover:before {
-    content:'\2713';
-    width: 50px;
-    height: 30px;
+    /* content:'\2713'; */
+    /* width: 50px; */
+    /* height: 30px; */
 } 
+
+.Contact__error {
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Contact_form_success {
+    font-size: 24px;
+    font-weight: 600;
+}

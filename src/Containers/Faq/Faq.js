@@ -62,7 +62,7 @@ class Faq extends Component {
 
         <div className="Faq__questions_container">
           <div className="Faq__question">
-            <h2>Are you able to administer my pet medication, when needed or required for health care?</h2>
+            <h2>Are you able to administer my pets medication, when needed or required, for health care?</h2>
             <p>
               Yes. I have experience in oral, topical and subcutaneous injections and fluids. Please do not hesitate to ask about specific medical attention your pet may need or require.
             </p>
